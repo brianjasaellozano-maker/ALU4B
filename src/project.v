@@ -92,7 +92,7 @@ module tt_um_ALU4b (
                     result <= {4'b0000, xor_result}; // 4-bit result with upper 4 bits set to 0
                 end
                 NOT: begin
-                    result <= {4'b0000, not_result}; // 4-bit result with upper 4 bits set to 0
+                    result <= {4'b0000, not_result}; // 4-bit result with upper 4 bits set to 
                 end
                 ENC: begin
                     // Apply encryption to the concatenated input (a and b)
